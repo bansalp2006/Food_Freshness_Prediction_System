@@ -1,0 +1,5 @@
+streamlit>=1.50
+numpy>=2.1
+pillow>=11.0
+scikit-learn>=1.7
+joblib>=1.5

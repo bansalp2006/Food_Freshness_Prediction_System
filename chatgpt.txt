@@ -1,0 +1,29 @@
+https://chatgpt.com/share/6acf0328-fda4-83ec-a96e-a4a988890f86
+
+
+a chatgpt ni link 6e jema a project no ni chat 6e 
+
+
+# Step 1: Check Python 3.14
+py -3.14 --version
+
+# Step 2: Open project folder
+cd "D:\UTU\SEM 5\Project\Food Freshness Prediction System\Food_Freshness_Prediction_System"
+
+# Step 3: Create virtual environment
+py -3.14 -m venv .venv
+
+# Step 4: Activate virtual environment
+.\.venv\Scripts\Activate.ps1
+
+# Step 5: Upgrade pip
+python -m pip install --upgrade pip
+
+# Step 6: Install required libraries
+pip install -r requirements.txt
+
+# Step 7: Train the ML model
+python train.py
+
+# Step 8: Run the web application
+streamlit run app.py
